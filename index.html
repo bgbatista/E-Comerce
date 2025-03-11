@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de Roupas</title>
+    <!-- Link para o Google Fonts (Poppins) -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Link para o Font Awesome (ícones) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif; /* Fonte moderna */
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa; /* Fundo claro e suave */
+        }
+        header {
+            background-color: #1a1a1a; /* Preto sofisticado */
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #343a40; /* Cinza escuro */
+            padding: 10px;
+            text-align: center;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: 500; /* Peso da fonte mais forte */
+            font-size: 18px; /* Tamanho da fonte aumentado */
+        }
+        nav a:hover {
+            color: #ff6b6b; /* Vermelho suave ao passar o mouse */
+        }
+        .nav-icons {
+            display: flex;
+            align-items: center;
+        }
+        .nav-icons a {
+            margin-left: 20px;
+            font-size: 20px;
+            color: #fff;
+        }
+        .nav-icons a:hover {
+            color: #ff6b6b; /* Vermelho suave ao passar o mouse */
+        }
+        .hero {
+            background-image: url('https://via.placeholder.com/1200x400');
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            text-align: center;
+            padding: 100px 20px;
+            background-color: #495057; /* Cinza escuro para o hero */
+        }
+        .hero h2 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+        .hero p {
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+        .hero a {
+            color: #fff;
+            background-color: #ff6b6b; /* Vermelho suave */
+            padding: 10px 20px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+        .hero a:hover {
+            background-color: #ff4757; /* Vermelho mais escuro ao passar o mouse */
+        }
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+            background-color: #fff; /* Fundo branco para a seção de produtos */
+        }
+        .product {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 20px;
+            width: 30%;
+            text-align: center;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+            transition: transform 0.3s ease;
+        }
+        .product:hover {
+            transform: translateY(-5px); /* Efeito de levantar ao passar o mouse */
+        }
+        .product img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .product h3 {
+            font-size: 20px;
+            margin: 15px 0;
+            color: #333;
+        }
+        .product p {
+            font-size: 18px;
+            color: #555;
+        }
+        .product button {
+            background-color: #ff6b6b; /* Vermelho suave */
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .product button:hover {
+            background-color: #ff4757; /* Vermelho mais escuro ao passar o mouse */
+        }
+        footer {
+            background-color: #1a1a1a; /* Preto sofisticado */
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            width: 100%;
+        }
+        footer p {
+            margin: 0;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    
+
+    <header>
+        <h1>Venoso Roupas</h1>
+    </header>
+
+    <nav>
+        <div>
+            <a href="#">Início</a>
+            <a href="#">Masculino</a>
+            <a href="#">Feminino</a>
+            <a href="#">Infantil</a>
+            <a href="#">Contato</a>
+        </div>
+        <div class="nav-icons">
+            <a href="#" title="Favoritos"><i class="fas fa-heart"></i></a>
+            <a href="#" title="Carrinho"><i class="fas fa-shopping-cart"></i></a>
+            <a href="#" title="Login"><i class="fas fa-user"></i></a>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <h2>Bem-vindo a Venoso!</h2>
+        <p>As melhores roupas para você e sua família.</p>
+        <a href="#">Compre Agora</a>
+    </section>
+
+    <section class="products">
+        <div class="product">
+            <img src="C:\Users\Maria54994226\Downloads\camisa_1-removebg-preview.png" alt="Camiseta Masculina">
+            <h3>Camiseta Masculina</h3>
+            <p>R$ 130,00</p>
+            <button>Comprar</button>
+        </div>
+        <div class="product">
+            <img src="C:\Users\Maria54994226\Downloads\camisa_2-removebg-preview.png" alt="Camiseta Masculina">
+            <h3>Camiseta Masculina</h3>
+            <p>R$ 130,00</p>
+            <button>Comprar</button>
+        </div>
+        <div class="product">
+            <img src="C:\Users\Maria54994226\Downloads\camisa_3-removebg-preview.png" alt="Camiseta Masculina">
+            <h3>Camiseta Masculina</h3>
+            <p>R$ 130,00</p>
+            <button>Comprar</button>
+        </div>
+        <div class="product">
+            <img src="C:\Users\Maria54994226\Downloads\camisa_4-removebg-preview.png"alt="Blusa Infantil">
+            <h3>Blusa Infantil</h3>
+            <p>R$ 115,00</p>
+            <button>Comprar</button>
+        </div>
+        <div class="product">
+            <img src="C:\Users\Maria54994226\Downloads\camisa_5-removebg-preview.png"alt="Blusa Infantil">
+            <h3>Blusa Infantil</h3>
+            <p>R$ 115,00</p>
+            <button>Comprar</button>
+        </div>
+        <div class="product">
+            <img src="C:\Users\Maria54994226\Downloads\camisa 6.jpg" alt="Blusa Infantil">
+            <h3>Blusa Infantil</h3>
+            <p>R$ 115,00</p>
+            <button>Comprar</button>
+        </div>
+        <div class="product">
+            <img src="C:\Users\Maria54994226\Downloads\camisa_7-removebg-preview.png" alt="Blusa Feminina">
+            <h3>Blusa Feminina</h3>
+            <p>R$ 150,00</p>
+            <button>Comprar</button>
+        </div>
+        <div class="product">
+            <img src="C:\Users\Maria54994226\Downloads\blusa_marrom-removebg-preview.png" alt="Blusa Feminina">
+            <h3>Blusa Feminina</h3>
+            <p>R$ 150,00</p>
+            <button>Comprar</button>
+        </div>
+        <div class="product">
+            <img src="C:\Users\Maria54994226\Downloads\camisa 9.jpg"alt="Blusa Feminina">
+            <h3>Blusa Feminina</h3>
+            <p>R$ 150,00</p>
+            <button>Comprar</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Venoso Roupas Roupas. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
